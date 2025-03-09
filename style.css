@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sideBar{
+    background-color: #F6F4FF;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sideBar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    list-style: none;
+    padding: 20px;
+}
+
+.sideBar ul li{
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sideBar ul li:hover{
+    background-color: #8370FE;
+}
+
+.sideBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
