@@ -37,4 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             mainContent.innerHTML = content[contentKey];
         });
     });
+
+    // Set default content to dashboard
+    mainContent.innerHTML = content.dashboard;
 });
