@@ -82,15 +82,19 @@ body {
     padding: 20px;
     width: calc(100% - 250px); /* Adjust width to account for sidebar */
     height: 100vh;
-    background-color: cadetblue;
+    background-color: #f0f2f5; /* Light background color for the container */
     display: flex;
     flex-direction: column;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     overflow: hidden; /* Prevent overflow */
 }
 
 .main{
     flex: 1; /* Allow .main to take up remaining space */
-    background-color: beige;
+    background-color: #ffffff; /* White background for the main content */
     padding: 20px;
+    border-radius: 20px; /* Rounded corners */
     overflow: auto; /* Allow scrolling if content overflows */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
