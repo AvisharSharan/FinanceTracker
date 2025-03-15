@@ -7,36 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--SIDEBAR-->
     <div class="sideBar">
         <div class="nav">
             <ul>
                 <li>
-                    
-                    <a href="index.html">
+                    <a href="#" id="dashboard-link">
                         <img src="static/icons/dash.svg" alt="">
                         Dashboard
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" id="transactions-link">
                         <img src="static/icons/transaction.svg" alt="">
                         Transactions
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" id="goals-link">
                         <img src="static/icons/goals.svg" alt="">
                         Goals
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" id="budget-link">
                         <img src="static/icons/budget.svg" alt="">
                         Budget
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" id="insights-link">
                         <img src="static/icons/insights.svg" alt="">
                         Insights
                     </a>
@@ -44,7 +44,14 @@
             </ul>
         </div>
     </div>
+    <!--CONTENT-->
     <div class="container">
+        <div class="main" id="main-content">
+            <!-- Content for the selected sidebar option will go here -->
+            <h1>Welcome to FinTrack</h1>
+            <p>Select an option from the sidebar to get started.</p>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
